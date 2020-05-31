@@ -1,16 +1,16 @@
 #include<stdio.h>
-intgetMissingNo(inta[],intn)
+int getMissingNo(inta[],intn)
 {
-inti,total;
+int i,total;
 total=(n+1)*(n+2)/2;
-for(i=0;i&lt;n;i++)
+for(i=0;i<n;i++)
 total-=a[i];
-returntotal;
+return total;
 }
-intmain()
+int main()
 {
-inta[]={1,2,4,5,6};
-intmiss=getMissingNo(a,5);
-printf(&quot;%d&quot;,miss);
+int a[]={1,2,4,5,6};
+int miss=getMissingNo(a,5);
+printf("%d",miss);
 getchar();
 }
