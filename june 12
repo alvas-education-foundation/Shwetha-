@@ -1,0 +1,5 @@
+defreverse_string_words(text):
+    forlineintext.split("\n"):
+       return(".join(line.split()"))
+print(reverse_string_words("Thequickbrownfoxjumpsoverthelazydog"))
+print(reverse_string_words("PythonExercises"))
