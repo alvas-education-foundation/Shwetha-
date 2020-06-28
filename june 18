@@ -1,0 +1,11 @@
+defnthMagicNo(n):
+pow=1
+answer=0
+while(n):
+pow=pow*5
+if(n&amp;1):
+answer+=pow
+n&gt;&gt;=1
+returnanswer
+n=5
+print("nth magic number is",nthMagicNo(n))
