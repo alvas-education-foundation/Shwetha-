@@ -1,0 +1,13 @@
+INT_BITS = 32
+def leftRotate(n, d):
+return (n<<d)|(n>>(INT_BITS - d))
+def rightRotate(n, d):
+return (n>>d)|(n<<(INT_BITS - d)) &0xFFFFFFFF
+# Driver program to
+# test above functions
+n = 16
+d = 2
+print("Left Rotation of",n)
+print(leftRotate(n, d))
+print("Right Rotation of",n)
+print(rightRotate(n, d))
