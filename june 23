@@ -1,0 +1,10 @@
+start=11
+end=25
+for val in range(start,end+1):
+ifval>1:
+for i in range(2,val//2+2):
+if(val%n)==0:
+break
+else:
+fn==val//2+1:
+print(val)
